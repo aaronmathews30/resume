@@ -48,6 +48,9 @@ st.markdown("""
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
       </li>
     </ul>
@@ -135,8 +138,8 @@ st.markdown('''
 txt('**Business Consultant**','NOV 21 - DEC 21')
 txt('*Ngalaya Indigenous Corporation*','NSW') 
 st.markdown('''
-- Analysed and presented the organisation’s purpose and alignment to UN Sustainable Development Goals.
-- Outlined opportunities or activities that might enhance the organisation’s social or environmental impact.
+- Analysed and presented the organisation's purpose and alignment to UN Sustainable Development Goals.
+- Outlined opportunities or activities that might enhance the organisation's social or environmental impact.
 - Redefined productivity (finance models, personnel structures, marketing, supply chain, logistics) to value by making for alternative income streams to be built for Ngalaya to become more sustainable.
 ''')
 
@@ -201,7 +204,83 @@ txt5('`Time Management`', '`Excellent Communication Skills`' )
 txt5('`Team leader`', '`Self-Motivated`')
 txt5('`High attention to detail`', '`Maintain high accuracy & timelines`')
 
+#####################
+st.markdown('''
+## Projects
 
+''')
+txt('**API Platform for Data analysis**','') 
+st.markdown('''
+- Designed & implemented an API platform using Flask to help scientists upload, cleanse & visualize data.
+- Looked into different explainable Machine Learning models which will be used to detect prostate cancer from square wave voltammetry data. 
+''')
+
+txt('**Web-based Database application**','') 
+st.markdown('''
+- Designed & implemented a database application using Django to help journalists at ABC network track the social misinformation campaign during the federal elections.
+- Deployed the database application using PostgresSQL as the back.
+''')
+
+txt('**Prediction of patients in ICU who would develop sepsis during their ICU stay**','') 
+st.markdown('''
+Intensive Care Units (ICUs) are constantly challenged to monitor their patients for the risk of sepsis development (an infection that can accrue while staying in ICU). While this challenge has been around for many years, the recent COVID-19 pandemic has increased its prominence. For an ICU, the ability to predict if a patient in ICU will develop a sepsis is very beneficial. That would assist with reducing the risk of health complications, and managing the ICU resources (such as bed availability, etc.).
+
+So, to get help the hosiptals, I developed an ML model to predict if a patient will develop 
+sepsis in the period of their stay in the ICU, based on provided attributes (features) 
+related to: patient characteristics, diagnoses, treatments, services, hospital charges and 
+patients socio-economic background.
+
+Different models were considered with Decision Tree with basic parameters as the baseline models. Later Random forest & random forest with hyperparameter tuning was looked into to check if there
+is any significant change in the model accuracy.
+''')
+
+txt('**Image classification using Deep Learning**','') 
+st.markdown('''
+The field of computer vision includes a set of main problems such as image classification, 
+localization, image segmentation, and object detection. Among those, image classification can be 
+considered the fundamental problem. It forms the basis for other computer vision problems. Image classification is probably the most important part of digital 
+image analysis. In this age of smart vehicles, Image classification can be considered as one of its foundations. 
+This project was designed to train a model to classify images of trffc signs. The project is divided into 2 task, one is to classify the images according to sign-type &
+the other is to classift the images according to sign-shape.  
+''')
+
+txt('**Share Price Prediction**','') 
+st.markdown('''
+Predicting accurately the future value of a share's price is a priceless asset for a stock trader. Almost every trading institution uses machine learning, time series analysis, etc. and other sorts of statistical & technical aid to predict future stock market prices. 
+For this project, I've used a daily closing price of a stock trading in ASX. This project will implement different trend models and identify the best fitting model for the data. 
+That model will be then used to predict future values.
+''')
+
+
+txt('**Prediction of Quarterly Revenue of Amazon**','') 
+st.markdown('''
+Amazon is one of the world's largest e-commerce companies, having a global presence. 
+Its online retail operation is built upon the Prime programme, which is backed up by the company's vast delivery network. 
+For this project I look into Amazon's quarterly revenue from 2010 through 2022. I used that the predict the revenue of the next 10 quarters. 
+''')
+
+
+
+
+txt("**Data cleaning and Summarising of NBA players' statistics.**",'') 
+st.markdown('''
+-	Performed pre-processing steps on the data, rectified the errors and managed the outliers. 
+-	Explored the data by using different graphs for insights.
+''')
+txt('**Prediction of survival of heart failure patients using 2 different classification models**','') 
+st.markdown('''
+- Medical records of heart failure patients were retrieved, pre-processed, and explored, and two classification models were trained using them. These models were then used to predict the survival of patients.
+''')
+
+txt('**Analysis of Crime Statistics and per capita Income in Victoria, AU**','') 
+st.markdown('''
+- Performed Data Wrangling on the data like inspecting the data for errors, tidying the data, combining the 2 datasets, identifying, and treating outliers, and transforming the data.
+''')
+
+txt('**Live Data Forensics & Metadata Analysis**','') 
+st.markdown('''
+- Developed a forensics investigation tool that creates images, and hash values, recovers deleted files from NTFS tables, analyse metadata & identifies Malware from RAM images.
+''')
 #####################
 st.markdown('''
 ## Social Media
