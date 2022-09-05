@@ -132,7 +132,7 @@ txt('**Data Science Intern**','MAR 22 -JUN 22')
 txt('*Universal Biosensors*', 'Melbourne')
 st.markdown('''
 - Designed & implemented an API platform that will be used by scientists to analyse raw data for research.
-- Implemented & suggested 
+- Implemented & suggested different machine learning algorithms to detect prostate cancer from drop of blood.
 ''')
 
 txt('**Business Consultant**','NOV 21 - DEC 21')
