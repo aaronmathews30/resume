@@ -19,9 +19,9 @@ st.info('''
 - IT professional with 3 years of combined experience in API Development & Data Science, with
   demonstrated data science skills in programming, creating SOAP/REST services, and whole data analysis
   lifecycle from identifying business needs, analysis, sourcing and exploring data, data cleansing, data modelling,
-  and report creation and visualisation, data analysis. 
+  and report creation and visualisation and data analysis. 
 - Highly organised, resourceful, collaborative, and keen to embrace new challenges with a keen eye for detail. 
-- Have the capability to work independently on multiple projects and deliver, focus, exceed expectations and engage meaningfully with key project stakeholders.
+- Can work independently on multiple projects and deliver, focus, exceed expectations and engage meaningfully with key project stakeholders.
 - Demonstrated well-developed research & data analysis skills, identifying, and communicating key insights.
 ''')
 
@@ -191,9 +191,10 @@ st.markdown('''
 
 #### Technical Skills
 ''')
-txt3('Programming', '`Python`, `R`, `Java`')
+txt3('Programming languages', '`Python`, `R`, `Java`')
 txt3('BI Tools', '`Power BI`,`Streamlit (Python library)`, `Splunk`')
 txt3('Frameworks', '`Flask`, `Django`')
+txt3('Devops','`Jenkins`, `CI/CD princples`')
 txt3('Database','`Oracle`,`PostgreSQL`,`MongoDB`, `MS SQL Server`')
 txt3('SQL','`SQL`, `relational database`, `semi-structured data (XML, JSON)` , `NoSQL`')
 txt3('Data processing/wrangling', '`pandas`, `numpy`')
@@ -205,7 +206,7 @@ txt3("Tibco","`Tibco BW 5.X and 6.5`, `Admin 5.8`, `TEA`, `EMS`, `GEMS`, `Tibco-
 txt3('Network & Protocols', '`HTTP`, `Tibco EMS`, `SOAP`, `REST JSON`')
 txt3('Testing tools', '`SOAP UI`, `POSTMAN`, `JMeter`, `HPQC`')
 txt3('Operating systems', '`Linux`, `Windows`, `Mainframe (Basics)`')
-txt3('ERP tools', '`SAP`, `IMPulse (Mainframe-based ERP`')
+txt3('ERP tools', '`SAP`, `IMPulse (Mainframe-based ERP)`')
 txt3('Cloud technologies', '`AWS`, `Azure`')
 txt3('Version Control tools','`GIT`, `GITHUB`, `Tortoise SVN`')
 txt3('Other tools', '`Apigee`,  `Putty`, `SharePoint`,  `MS Office (Excel, Word, Powerpoint)`')
