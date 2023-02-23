@@ -136,7 +136,7 @@ txt('**Casual Researcher**', 'MAR 22 - SEP 22')
 txt('*RMIT University*', 'Melbourne')
 st.markdown('''
 - Designed & implemented a Database application for RMIT Factlab, which is a partnership between RMIT University and the ABC, which will be used in the federal election 2022 to track the misinformation campaign.
-- Created an UI to interact with the database and visualisations for efficient information delivery.
+- Created a UI to interact with the database and visualisations for efficient information delivery.
 ''')
 
 txt('**Data Science Intern**','MAR 22 - JUN 22')
@@ -226,7 +226,7 @@ st.markdown('''
 ''')
 txt('**Job seeker website**','') 
 st.markdown('''
-- Designed & implemeted a web-based data application using Flask.
+- Designed & implemented a web-based data application using Flask.
 - The website allows job hunters to browse existing job advertisements, as well as employers to create new job advertisements.
 - The website uses word2vec, a text corpus by Google to auto classify categories for new job advertisement entries.
 - Steps of Text pre-processing like Tokenisation, Case Normalisation, Stopping, Stemming & Lemmatisation, Sentence segmentation were all performed on the dataset.
