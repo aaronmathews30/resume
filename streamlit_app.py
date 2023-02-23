@@ -109,7 +109,6 @@ txt('**Master of Data Science**', 'JUL 20 - DEC 22')
 txt('*RMIT University*', 'Melbourne')
 st.markdown('''
 - GPA: `3.4/4`
-- Secured 4 G.P.A in first year
 ''')
 
 txt('**Bachelors of Science**' ,'AUG 14 - MAY 18')
