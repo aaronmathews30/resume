@@ -16,11 +16,14 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Final year Master of Data Science student with 2 years of corporate experience in creating SOAP/REST services at Ingram Micro. 
-- Highly organised, resourceful, and keen to take on new challenges. Can efficiently work in a challenging environment with a keen eye for detail. 
-- Can independently work on multiple projects and deliver with exceeding expectations by constantly engaging with stakeholders. 
-- I've performed research & data analysis and presented my findings & key insights to important stakeholders.  
-- Can contribute my abilities to the whole data analysis lifecycle with a collaborative attitude, from gathering requirements, business analysis, sourcing and exploring data, data cleansing, data modelling, and report creation and visualisation, data analysis, to provide better clarity to the relevant stakeholders. ''')
+- IT professional with 3 years of combined experience in API Development & Data Science, with
+  demonstrated data science skills in programming, creating SOAP/REST services, and whole data analysis
+  lifecycle from identifying business needs, analysis, sourcing and exploring data, data cleansing, data modelling,
+  and report creation and visualisation, data analysis. 
+- Highly organised, resourceful, collaborative, and keen to embrace new challenges with a keen eye for detail. 
+- Have the capability to work independently on multiple projects and deliver, focus, exceed expectations and engage meaningfully with key project stakeholders.
+- Demonstrated well-developed research & data analysis skills, identifying, and communicating key insights.
+''')
 
 #####################
 # Navigation
@@ -102,14 +105,14 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Master of Data Science**', 'JUL 20-current')
+txt('**Master of Data Science**', 'JUL 20 - DEC 22')
 txt('*RMIT University*', 'Melbourne')
 st.markdown('''
-- GPA: `3.6`
+- GPA: `3.4/4`
 - Secured 4 G.P.A in first year
 ''')
 
-txt('**Bachelors of Science**' ,'AUG 14- MAY 18')
+txt('**Bachelors of Science**' ,'AUG 14 - MAY 18')
 txt('*University of Mumbai* ', 'Mumbai')
 st.markdown('''
 - Won 1st Prize in Idea Presentation Competition at “SPECTRA 2K17”, a State-level Competition, India. 
@@ -121,18 +124,27 @@ st.markdown('''
 st.markdown('''
 ## Work Experience
 ''')
-txt('**Casual Researcher**', 'MAR 22 - current')
+txt('**Analytics Consultant**', 'OCT 22 - current')
+txt('*AECOM*', 'Melbourne')
+st.markdown('''
+- Developed a PowerBI dashboard solution for KiwiRail to visualise the risk associated with all the rail lines.
+- Imported data from IBM MAXIMO to SQL and analysed it to derive insights.
+- Developed dynamic SQL queries to consolidate the relevant data for dashboarding.
+- Refactored &amp; maintained coding standards for certain Image Processing projects.
+''')
+
+txt('**Casual Researcher**', 'MAR 22 - SEP 22')
 txt('*RMIT University*', 'Melbourne')
 st.markdown('''
 - Designed & implemented a Database application for RMIT Factlab, which is a partnership between RMIT University and the ABC, which will be used in the federal election 2022 to track the misinformation campaign.
-- Created a UI to interact with the database and visualisations for efficient information delivery.
+- Created an UI to interact with the database and visualisations for efficient information delivery.
 ''')
 
-txt('**Data Science Intern**','MAR 22 -JUN 22')
+txt('**Data Science Intern**','MAR 22 - JUN 22')
 txt('*Universal Biosensors*', 'Melbourne')
 st.markdown('''
 - Designed & implemented an API platform that will be used by scientists to analyse raw data for research.
-- Implemented & suggested different machine learning algorithms to detect prostate cancer from a drop of blood.
+- Implemented & suggested Explainable machine learning models so that scientists can understand how the behaviour of the data.  
 ''')
 
 txt('**Business Consultant**','NOV 21 - DEC 21')
@@ -180,21 +192,24 @@ st.markdown('''
 
 #### Technical Skills
 ''')
-txt3('Programming', '`Python`, `R`, `Java`,`Linux`')
+txt3('Programming', '`Python`, `R`, `Java`')
+txt3('BI Tools', '`Power BI`,`Streamlit (Python library)`, `Splunk`')
 txt3('Frameworks', '`Flask`, `Django`')
-txt3('Database','`Oracle`,`PostgreSQL`,`MongoDB`')
-txt3('SQL','`SQL`, `relational database`, `semi-structured data`, `NoSQL`')
+txt3('Database','`Oracle`,`PostgreSQL`,`MongoDB`, `MS SQL Server`')
+txt3('SQL','`SQL`, `relational database`, `semi-structured data (XML, JSON)` , `NoSQL`')
 txt3('Data processing/wrangling', '`pandas`, `numpy`')
 txt3('Python libraries','`streamlit`, `tkinter`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `ggplot2`')
-txt3('Machine Learning', '`scikit-learn`')
+txt3('Machine Learning', '`scikit-learn`, `ntlk`')
 txt3('Deep Learning', '`TensorFlow`')
 txt3("Tibco","`Tibco BW 5.X and 6.5`, `Admin 5.8`, `TEA`, `EMS`, `GEMS`, `Tibco-Substation`")
-txt3('XML Technologies', '`XML`, `XSLT`, `WSDL`, `XSD`, `XPATH`, `Canonical Data Models (CDM)`')
 txt3('Network & Protocols', '`HTTP`, `Tibco EMS`, `SOAP`, `REST JSON`')
-txt3('Testing tools', '`SOAP UI`, `POSTMAN`, `JMeter`')
+txt3('Testing tools', '`SOAP UI`, `POSTMAN`, `JMeter`, `HPQC`')
 txt3('Operating systems', '`Linux`, `Windows`, `Mainframe (Basics)`')
-txt3('Other tools', '`SAP`, `AWS`, `Apigee`, `Splunk`, `Putty`, `HPQC`, `SharePoint`, `Tortoise SVN`, `GIT`, `MS Office (Excel)`')
+txt3('ERP tools', '`SAP`, `IMPulse (Mainframe-based ERP`')
+txt3('Cloud technologies', '`AWS`, `Azure`')
+txt3('Version Control tools','`GIT`, `GITHUB`, `Tortoise SVN`')
+txt3('Other tools', '`Apigee`,  `Putty`, `SharePoint`,  `MS Office (Excel, Word, Powerpoint)`')
 
 st.markdown('''
 #### Soft Skills
@@ -209,6 +224,17 @@ st.markdown('''
 ## Projects
 
 ''')
+txt('**Job seeker website**','') 
+st.markdown('''
+- Designed & implemeted a web-based data application using Flask.
+- The website allows job hunters to browse existing job advertisements, as well as employers to create new job advertisements.
+- The website uses word2vec, a text corpus by Google to auto classify categories for new job advertisement entries.
+- Steps of Text pre-processing like Tokenisation, Case Normalisation, Stopping, Stemming & Lemmatisation, Sentence segmentation were all performed on the dataset.
+- Both bag-of-words model & embedding language model were compared & selected accordingly.
+- The source data which is procured from multiple websites is wrangled to identify & resolve Data quality issues, integrated to a single format. 
+''')
+
+
 txt('**API Platform for Data analysis**','') 
 st.markdown('''
 - Designed & implemented an API platform using Flask to help scientists upload, cleanse & visualize data.
