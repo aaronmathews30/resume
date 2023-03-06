@@ -123,7 +123,7 @@ st.markdown('''
 st.markdown('''
 ## Work Experience
 ''')
-txt('**Analytics Consultant**', 'OCT 22 - current')
+txt('**Analytics Consultant**', 'OCT 22 - FEB 23')
 txt('*AECOM*', 'Melbourne')
 st.markdown('''
 - Developed a PowerBI dashboard solution for KiwiRail to visualise the risk associated with all the rail lines.
